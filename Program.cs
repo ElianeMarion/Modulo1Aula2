@@ -136,6 +136,7 @@
 			double salario, desconto;
 			Console.WriteLine("Digite seu salário");
 			salario = Convert.ToDouble(Console.ReadLine());
+			
 			desconto = salario * 0.11;
 
 			if (desconto >= 720)
